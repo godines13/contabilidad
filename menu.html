@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+   
+   
+    <br>
+    <head>
+        <meta charset="utf-8">
+        
+       <center> <link rel="stylesheet" type="text/css" href="conte.css"></center>
+    </head>
+   <body background="fon.jpg" text="black"> 
+       <div class="conte"> 
+          
+        <br>
+
+      
+        <center> <font size="7" face="Georgia, Arial" color="blue">Contabilidad</font></center>
+        
+        <HR width="80%"></HR>
+        <HR width="60%"></HR>
+        <HR width="40%"></HR>
+        <HR width="20%"></HR>
+                <br><br><br>
+                
+        <form method="POST" oninput="resultado.value=parseInt(valor1.value)+parseInt(valor2.value)">
+                <h2>costo primo</h2>
+        materia prima <input type="number" id="valor1" value=""> + mano de obra directa <input type="number" id="valor2" value=""> =     <output name="resultado" for="valor1 valor2"></output>
+            <input type="reset">
+            </form>
+
+<br>
+            
+            <form method="POST" oninput="resultado.value=parseInt(valor1.value)+parseInt(valor2.value)+parseInt(valor3.value)">
+        <h2>costo de producion</h2>
+     costo primo <input type="number" id="valor1" value=""> + gastos generales de fabricacion directos <input type="number" id="valor2" value=""> + costo indirrecos <input type="number" id="valor3" value=""> = <output name="resultado" for="valor1 valor2"></output>  <input type="reset">
+            </form> 
+        
+            <form method="POST" oninput="resultado.value=parseInt(valor1.value)+parseInt(valor2.value)+parseInt(valor3.value)">
+        <h2>costos indirecto</h2>
+
+        materia prima indirecta<input type="number" id="valor1" value=""> +  mano de obra indirecta <input type="number" id="valor2" value=""> +  gastos generales de fabricacion<input type="number" id="valor3" value=""> = <output name="resultado" for="valor1 valor2"></output>  <input type="reset">
+            </form> 
+        
+     <br>
+        <form method="POST" oninput="resultado.value=parseInt(valor1.value)+parseInt(valor2.value)">
+        <h2>costo de distribucion</h2>
+        
+        costo de distribucion <input type="number" id="valor1" value=""> + gastos de venta + gastos de adminiistracion <input type="number" id="valor2" value=""> =     <output name="resultado" for="valor1 valor2"></output>  <input type="reset">
+            </form>
+
+        <br>
+        
+        <form method="POST" oninput="resultado.value=parseInt(valor1.value)+parseInt(valor2.value)+parseInt(valor3.value)">
+        <h2>costo total de operacion</h2>
+        
+        costo de distribucion<input type="number" id="valor1" value=""> +  costo de producion<input type="number" id="valor2" value=""> + costo de distribucion<input type="number" id="valor3" value=""> = <output name="resultado" for="valor1 valor2"></output>  <input type="reset">
+            </form> 
+        
+        <br>
+        
+        <form method="POST" oninput="resultado.value=parseInt(valor1.value)/parseInt(valor2.value)">
+        <h2>costo unitario de produccion</h2> 
+        costo unitario de produccion<input type="number" id="valor1" value=""> / unidades produccidas <input type="number" id="valor2" value=""> = <output name="resultado" for="valor1 valor2"></output>  <input type="reset">
+            </form>
+         <br>
+           </li>
+       </div>
+                </body>
+               
+</html>
